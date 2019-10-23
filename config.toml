@@ -1,5 +1,5 @@
 baseURL = "https://snoup97.github.io/swh-pkohler/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Scratching With Hardware - Doku - Philipp Kohler"
 theme = "hugo-theme-techdoc"
 publishDir = "docs"
