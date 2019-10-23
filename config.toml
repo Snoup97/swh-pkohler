@@ -1,5 +1,0 @@
-baseURL = "https://snoup97.github.io/swh-pkohler/"
-languageCode = "en-us"
-title = "Scratching With Hardware - Doku - Philipp Kohler"
-theme = "hugo-theme-techdoc"
-publishDir = "docs"
