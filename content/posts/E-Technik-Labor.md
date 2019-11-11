@@ -16,7 +16,7 @@ des Netzteils der Widerstand berechnet werden.
 Das Netzteil liefert in diesem Versuch die Werte von Strom und Spannung, und durch Einsetzen der Werte in die passende Formel
 kann der Widerstand des gegebenen Teils berechnet werden.
 
-![Widerstandsmessung Image](/img/etechniklabor/firstone)
+![Widerstandsmessung Image](/img/etechniklabor/versuch1)
 
 Nachdem mehrere Messwerte erhoben wurden konnte durch den Durchschnitt errechnet werden welchen Widerstand das Bauteil
 ca. haben muss.
@@ -25,7 +25,7 @@ Direkt im Anschluss folgte der zweite Versuch bei welchem wieder ein Widerstand 
 Verwendung eines [Multimeters](https://de.wikipedia.org/wiki/Multimeter "Wikipedia Multimeter"). Das Multimeter sollte dabei
 helfen die Messgenauigkeit zu erhöhen und die im ersten Versuch festgestellten Werte zu verifizieren.
 
-![Widerstandsmessung Multi Image](/img/etechniklabor/secondone)
+![Widerstandsmessung Multi Image](/img/etechniklabor/versuch2)
 
 Als Ergebnis der beiden Versuche lässt sich sagen, dass die Messung welche auf der Anzeige des Netzteils basiert
 eine starke Abweichung hat. Dies liegt ua. auch daran, dass das Netzteil nur zwei Nachkommestellen anzeigen kann und
@@ -38,16 +38,16 @@ Widerstandswert daraus berechnen lässt.
 
 Leider kann ich hierzu kein Foto liefern dafür aber eines von einem brennenden Widerstand was auch sehr eindrucksvoll war.
 
-![Burn Widerstand Burn Image](/img/etechniklabor/burn)
+![Burn Widerstand Burn Image](/img/etechniklabor/burnit)
 
 In der finalen Phase des Labors hatten wir die Möglichkeit mit einem [Arduino Nano](https://store.arduino.cc/arduino-nano "Arduino Nano Website") zu arbeiten. Als Erstes mussten wir die Verbindungen an diesen Löten. Nachdem dies ohne größere Probleme
 funktionierte konnte eine Schaltung auf einem Steckbrett gebaut werden welche den Arduino mit einem Heißleiter verbindet
 und somit eine Temperaturmessung ermöglicht.
 
-![arduino neu Image](/img/etechniklabor/arduinoneu)
+![arduino Image](/img/etechniklabor/arduino)
 
 
-![arduino schaltung Image](/img/etechniklabor/arduinoschaltung)
+![arduino schaltung Image](/img/etechniklabor/schaltung)
 
 Sobald durch die Arduino IDE das entsprechende Skript auf den Arduino geladen war konnte man in der Textausgabe der IDE beobachten
 wie durch den Widerstand des Heißleiters die Raumtemperatur ermittelt wurde. Testen konnte man das System indem man den Heißleiter
