@@ -38,16 +38,16 @@ Widerstandswert daraus berechnen lässt.
 
 Leider kann ich hierzu kein Foto liefern dafür aber eines von einem brennenden Widerstand was auch sehr eindrucksvoll war.
 
-![Burn Widerstand Burn Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/etechniklabor/burnit.png)
+![Burn Widerstand Burn Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/etechniklabor/burnit.png "Brennender Widerstand")
 
 In der finalen Phase des Labors hatten wir die Möglichkeit mit einem [Arduino Nano](https://store.arduino.cc/arduino-nano "Arduino Nano Website") zu arbeiten. Als Erstes mussten wir die Verbindungen an diesen Löten. Nachdem dies ohne größere Probleme
 funktionierte konnte eine Schaltung auf einem Steckbrett gebaut werden welche den Arduino mit einem Heißleiter verbindet
 und somit eine Temperaturmessung ermöglicht.
 
-![arduino Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/etechniklabor/arduino.jpg)
+![arduino Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/etechniklabor/arduino.jpg "Arduino Nano")
 
 
-![arduino schaltung Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/etechniklabor/schaltung.jpg)
+![arduino schaltung Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/etechniklabor/schaltung.jpg "Arduino Temperatur Messschaltung")
 
 Sobald durch die Arduino IDE das entsprechende Skript auf den Arduino geladen war konnte man in der Textausgabe der IDE beobachten
 wie durch den Widerstand des Heißleiters die Raumtemperatur ermittelt wurde. Testen konnte man das System indem man den Heißleiter
