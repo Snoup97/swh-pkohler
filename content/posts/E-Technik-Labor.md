@@ -25,7 +25,7 @@ Direkt im Anschluss folgte der zweite Versuch bei welchem wieder ein Widerstand 
 Verwendung eines [Multimeters](https://de.wikipedia.org/wiki/Multimeter "Wikipedia Multimeter"). Das Multimeter sollte dabei
 helfen die Messgenauigkeit zu erhöhen und die im ersten Versuch festgestellten Werte zu verifizieren.
 
-![Widerstandsmessung Multi Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/etechniklabor/versuch2.jpg)
+![Widerstandsmessung Multi Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/etechniklabor/versuch2.jpg "Zweiter Versuch")
 
 Als Ergebnis der beiden Versuche lässt sich sagen, dass die Messung welche auf der Anzeige des Netzteils basiert
 eine starke Abweichung hat. Dies liegt ua. auch daran, dass das Netzteil nur zwei Nachkommestellen anzeigen kann und
