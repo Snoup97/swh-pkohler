@@ -10,12 +10,12 @@ Die erste Übung befasste sich mit dem Erstellen und Veröffentlichen einer stat
 
 Nach dem Herunterladen und Installieren von Hugo konnte ein Projekt erstellt werden und eines der bereitgestellten Themen ausgesucht werden. Das ausgesuchte Thema wurde dann über git in das Projekt eingebunden.
 
-![setup image](/setup.png "Setup Konsole")
+![setup image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/setup/setup.png "Setup Konsole")
 
-![theme import image](/clone.png "Git Clone des Themas")
+![theme import image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/setup/clone.png "Git Clone des Themas")
 
 Sobald das Kopieren des Themas abgeschlossen war konnte mit dem Erstellen einer ersten Seite fortgefahren werden. Danach sollte das Projekt über git veröffentlicht werden.
 
-![github repo image](/github.png "Github Repository")
+![github repo image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/setup/github.png "Github Repository")
 
 Sobald diese Schritte abgeschlossen waren und das Projekt öffentlich verfügbar war konnte ein erster Eintrag in den Blog geschrieben werden.
