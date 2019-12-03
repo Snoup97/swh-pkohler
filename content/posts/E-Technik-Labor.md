@@ -1,5 +1,5 @@
 ---
-title: "E-Technik-Labor"
+title: "E-Technik Labor"
 date: 2019-11-11T11:46:30+01:00
 draft: false
 ---
