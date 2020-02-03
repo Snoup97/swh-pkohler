@@ -16,23 +16,23 @@ Für die Darstellung meiner Daten habe ich mich entschlossen meinen Namen und di
 
 Um ein einzigartiges Feature zu besitzen, hatte ich erst eine Art Schiebemechanismus im Sinn und habe es dann doch in ein Fallsystem umgewandelt. Hierbei ist die Information die auf dem Kopf steht von einem Schieber verdeckt, sobald aber die Karte gedreht wird fällt der Schieber nach unten und verdeckt die dann auf dem Kopf stehende Information und die neue Info ist lesbar.
 
-![Designidee](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/Visitenkartenlabor/1.jpg "Designidee")
+![Designidee](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/visitenkartenlabor/1.jpg "Designidee")
 
 Um diese Idee zu verwirklichen braucht die Visitenkarte mehrere Schichten. Eine Datenschicht in welcher die beiden Information ausgeschnitten sind. Darauf liegen mehrere Platzhalter-Schichten welche dem Schieber den nötigen Freiraum geben um von oben nach unten fallen zu können. Als Abschluss liegt eine Abdeckung auf welche Lücken für die beiden Information enthält sowie eine große Wartungslücke, sollte der Schieber doch mal hängen bleiben.
 
 Im Anschluss sind Bilder aller Einzelteile zu sehen.
 
-![Datenschicht](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/Visitenkartenlabor/2.jpg "Datenschicht")
+![Datenschicht](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/visitenkartenlabor/2.jpg "Datenschicht")
 
-![Platzhalter](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/Visitenkartenlabor/3.jpg "Platzhalter")
+![Platzhalter](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/visitenkartenlabor/3.jpg "Platzhalter")
 
-![Abdeckung](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/Visitenkartenlabor/4.jpg "Abdeckung")
+![Abdeckung](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/visitenkartenlabor/4.jpg "Abdeckung")
 
 Alle Teile zusammengesetzt mit etwas Klebstoff und fertig ist eine einzigartige Visitenkarte.
 Im Nachhinein hat sich die Idee mit der Wartungslücke als sehr hilfreich herausgestellt.
 
 Als Abschluss noch beide Informationsseiten der Visitenkarte.
 
-![Seite1](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/Visitenkartenlabor/5.jpg "Seite1")
+![Seite1](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/visitenkartenlabor/5.jpg "Seite1")
 
-![Seite2](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/Visitenkartenlabor/6.jpg "Seite2")
+![Seite2](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/visitenkartenlabor/6.jpg "Seite2")
