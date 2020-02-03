@@ -22,6 +22,16 @@ Im ersten Schritt habe ich mir in mehreren Schritten kurz Gedanken gemacht wie m
     </item>
     
     <item>
+      <title>Automaton Labor</title>
+      <link>https://snoup97.github.io/swh-pkohler/posts/automaton-labor/</link>
+      <pubDate>Wed, 22 Jan 2020 17:02:50 +0100</pubDate>
+      
+      <guid>https://snoup97.github.io/swh-pkohler/posts/automaton-labor/</guid>
+      <description>Automaton - Labor Das Ziel des Automaton Labors ist es einen Apparat zu bauen welcher eine Tätigkeit bzw. eine Bewegung ausführt und dabei durch eine Kurbel angetrieben wird. Zudem sollte die Kraft über mehrere Stellen wie zB. Zahnräder laufen.
+Nach einer kurzen Planungsphase habe ich mich dafür entschieden einen Bewegungsmechanismus zu bauen welcher einen Stift antreibt, welcher widerum auf einem Papier zeichnet. Dazu sollten zwei parallele Holzstäbe welche in einem Brett versenkt sind durch ein Band verbunden werden, sodass die Kraft welche durch das Drehen des einen Stabes entsteht auf den Anderen übertragen werden kann.</description>
+    </item>
+    
+    <item>
       <title>ESP32 Labor</title>
       <link>https://snoup97.github.io/swh-pkohler/posts/esp32-labor/</link>
       <pubDate>Wed, 04 Dec 2019 17:22:14 +0100</pubDate>
