@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Scratching With Hardware - Doku - Philipp Kohler</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Nov 2019 12:19:21 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 04 Dec 2019 17:22:14 +0100</lastBuildDate>
     
 	<atom:link href="https://snoup97.github.io/swh-pkohler/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ESP32 Labor</title>
+      <link>https://snoup97.github.io/swh-pkohler/posts/esp32-labor/</link>
+      <pubDate>Wed, 04 Dec 2019 17:22:14 +0100</pubDate>
+      
+      <guid>https://snoup97.github.io/swh-pkohler/posts/esp32-labor/</guid>
+      <description>ESP32 Labor Im Anschluss an das Arduino Labor wurde mit dem ESP32 das Board durch eines mit deutlich höherer Leistungsfähigkeit und Möglichkeiten ausgetauscht. Mit dem ESP ist es ua. möglich eine Verbindung über Wlan herzustellen sowie selbst einen Webserver zu hosten. Mit dem direkt auf das Board aufgestecken Display wird eine weitere Ausgabe- und Interaktionsmöglichkeit gegeben.
+Als erster Schritt wurde das aufgesteckte Display verwendet um ein gegebenes Bild auszugeben. Das Bild war hierbei in einem Array gespeichert welches die Helligkeit des jeweiligen Pixels enthält.</description>
+    </item>
     
     <item>
       <title>Arduino Labor</title>
