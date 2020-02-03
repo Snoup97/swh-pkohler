@@ -3,12 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://snoup97.github.io/swh-pkohler/posts/esp32-labor/</loc>
-    <lastmod>2019-12-04T17:22:14+01:00</lastmod>
+    <loc>https://snoup97.github.io/swh-pkohler/posts/</loc>
+    <lastmod>2020-01-22T17:03:02+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://snoup97.github.io/swh-pkohler/posts/</loc>
+    <loc>https://snoup97.github.io/swh-pkohler/posts/visitenkarte-labor/</loc>
+    <lastmod>2020-01-22T17:03:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://snoup97.github.io/swh-pkohler/posts/esp32-labor/</loc>
     <lastmod>2019-12-04T17:22:14+01:00</lastmod>
   </url>
   

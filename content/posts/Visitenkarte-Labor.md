@@ -27,3 +27,12 @@ Im Anschluss sind Bilder aller Einzelteile zu sehen.
 ![Platzhalter](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/Visitenkartenlabor/3.jpg "Platzhalter")
 
 ![Abdeckung](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/Visitenkartenlabor/4.jpg "Abdeckung")
+
+Alle Teile zusammengesetzt mit etwas Klebstoff und fertig ist eine einzigartige Visitenkarte.
+Im Nachhinein hat sich die Idee mit der Wartungslücke als sehr hilfreich herausgestellt.
+
+Als Abschluss noch beide Informationsseiten der Visitenkarte.
+
+![Seite1](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/Visitenkartenlabor/5.jpg "Seite1")
+
+![Seite2](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/Visitenkartenlabor/6.jpg "Seite2")
