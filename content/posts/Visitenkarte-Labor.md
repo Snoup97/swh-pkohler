@@ -1,5 +1,5 @@
 ---
-title: "Visitenkarte Labor"
+title: "Visitenkarte"
 date: 2020-01-22T17:03:02+01:00
 draft: false
 ---

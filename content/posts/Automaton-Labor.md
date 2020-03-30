@@ -1,5 +1,5 @@
 ---
-title: "Automaton Labor"
+title: "Automaton"
 date: 2020-01-22T17:02:50+01:00
 draft: false
 ---

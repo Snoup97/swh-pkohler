@@ -1,5 +1,5 @@
 ---
-title: "ESP32 Labor"
+title: "ESP32"
 date: 2019-12-04T17:22:14+01:00
 draft: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Arduino Labor"
+title: "Arduino"
 date: 2019-11-27T12:19:21+01:00
 draft: false
 ---
@@ -34,6 +34,6 @@ ausgeben kann. Die gemessene Entfernung wurde hierbei nur auf einer Konsole am a
 Mit der entsprechenden Software kann nun der Aufbau soweit erweitert werden, dass der Entfernungsmesser die Distanz zum nächsten
 Objekt vor der Messtation misst und sobald diese eine Grenze unterschreitet kann geschlussfolgert werden, dass sich ein Nutzer
 vor der Station befindet. Daraufhin wird ein Ton ausgegeben und es findet eine Messung statt, die Werte werden anschließend auf
-dem Display ausgegeben. 
+dem Display ausgegeben.
 
 ![UnoTemp4 Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/arduinolabor/versuch4.jpg "Vierter Versuch")
