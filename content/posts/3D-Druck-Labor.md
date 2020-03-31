@@ -37,6 +37,6 @@ Screenshot
 
 ### Schritt 5: Drucken
 
-![Finales Produkt 1 Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/3ddrucklabor/final1.jpg "finales Produkt")
+![Finales Produkt 1 Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/3ddrucklabor/withcharger.jpg "finales Produkt")
 
-![Finales Produkt 2 Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/3ddrucklabor/final2.jpg "finales Produkt")
+![Finales Produkt 2 Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/3ddrucklabor/allprints.jpg "finales Produkt")
