@@ -17,8 +17,8 @@
       <pubDate>Mon, 03 Feb 2020 12:51:14 +0100</pubDate>
       
       <guid>https://snoup97.github.io/swh-pkohler/posts/3d-druck-labor/</guid>
-      <description>Additive Fertigungsverfahren - Labor Das finale Labor fand zum Thema Additive Fertigungsverfahren statt und beinhaltete das Erstellen einer Kabelhalterung für den Schreibtisch. Vorgabe war es eine Halterung zu erstellen, welche sich seitlich an einem Schreibtisch anbringen lässt, damit die eingehängten Kabel nicht vom Tisch auf den Boden fallen sondern in der Halterung auf ihre nächste Nutzung warten.
-Des weiteren galten Vorgaben bezüglich des Drucks. Der Druck durfte maximal 15 Minuten in Anspruch nehmen, und es musste sich um ein von uns selbst designtes Objekt handeln.</description>
+      <description>Additive Fertigungsverfahren - Labor Das finale Labor fand zum Thema Additive Fertigungsverfahren statt und beinhaltete das Erstellen einer Kabelhalterung für den Schreibtisch. Vorgabe war es eine Halterung zu erstellen, welche sich seitlich an einem Schreibtisch anbringen lässt, damit die eingehängten Kabel nicht vom Tisch auf den Boden fallen, sondern in der Halterung auf ihre nächste Nutzung warten.
+Des Weiteren galten Vorgaben bezüglich des Drucks. Der Druck durfte maximal 15 Minuten in Anspruch nehmen, und es musste sich um ein von uns selbst designtes Objekt handeln.</description>
     </item>
     
     <item>
@@ -27,8 +27,8 @@ Des weiteren galten Vorgaben bezüglich des Drucks. Der Druck durfte maximal 15 
       <pubDate>Wed, 22 Jan 2020 17:03:02 +0100</pubDate>
       
       <guid>https://snoup97.github.io/swh-pkohler/posts/visitenkarte-labor/</guid>
-      <description>Subtraktive Fertigungsverfahren - Labor Im Rahmen des Labor mit dem Thema &amp;ldquo;Subtraktive Fertigungsverfahren&amp;rdquo; war es die Aufgabe eine Visitenkarte zu designen und aus gegebenem Material zu schneiden. Ziel war es eine einzigartige Visitenkarte mit ausgefallenen Features entstehen zu lassen.
-Schritt 1: Design Im ersten Schritt habe ich mir in mehreren Schritten kurz Gedanken gemacht wie meine Visitenkarte aussehen soll und welche besonderen Features darin enthalten seien sollen. Die Vorgabe war es die Visitenkarte trotz ihrer Einmaligkeit immer noch Hosentaschentauglich zu gestalten.</description>
+      <description>Subtraktive Fertigungsverfahren - Labor Im Rahmen des Labors mit dem Thema &amp;ldquo;Subtraktive Fertigungsverfahren&amp;rdquo; war es die Aufgabe, eine Visitenkarte zu designen und aus gegebenem Material zu schneiden. Ziel war es eine einzigartige Visitenkarte mit ausgefallenen Features entstehen zu lassen.
+Schritt 1: Design Im ersten Schritt habe ich mir in mehreren Schritten kurz Gedanken gemacht, wie meine Visitenkarte aussehen soll und welche besonderen Features darin enthalten seien sollen. Die Vorgabe war es die Visitenkarte trotz ihrer Einmaligkeit immer noch hosentaschentauglich zu gestalten.</description>
     </item>
     
     <item>
@@ -37,8 +37,8 @@ Schritt 1: Design Im ersten Schritt habe ich mir in mehreren Schritten kurz Geda
       <pubDate>Wed, 22 Jan 2020 17:02:50 +0100</pubDate>
       
       <guid>https://snoup97.github.io/swh-pkohler/posts/automaton-labor/</guid>
-      <description>Automaton - Labor Das Ziel des Automaton Labors ist es einen Apparat zu bauen welcher eine Tätigkeit bzw. eine Bewegung ausführt und dabei durch eine Kurbel angetrieben wird. Zudem sollte die Kraft über mehrere Stellen wie zB. Zahnräder laufen.
-Nach einer kurzen Planungsphase habe ich mich dafür entschieden einen Bewegungsmechanismus zu bauen welcher einen Stift antreibt, welcher widerum auf einem Papier zeichnet. Dazu sollten zwei parallele Holzstäbe welche in einem Brett versenkt sind durch ein Band verbunden werden, sodass die Kraft welche durch das Drehen des einen Stabes entsteht auf den Anderen übertragen werden kann.</description>
+      <description>Automaton - Labor Das Ziel des Automaton Labors ist es, einen Apparat zu bauen welcher eine Tätigkeit bzw. eine Bewegung ausführt und dabei durch eine Kurbel angetrieben wird. Zudem sollte die Kraft über mehrere Stellen wie zB. Zahnräder laufen.
+Nach einer kurzen Planungsphase habe ich mich dafür entschieden einen Bewegungsmechanismus zu bauen, welcher einen Stift antreibt, welcher wiederum auf einem Papier zeichnet. Dazu sollten zwei parallele Holzstäbe, welche in einem Brett versenkt sind durch ein Band verbunden werden, sodass die Kraft welche durch das Drehen des einen Stabes entsteht auf den anderen übertragen werden kann.</description>
     </item>
     
     <item>
@@ -48,7 +48,7 @@ Nach einer kurzen Planungsphase habe ich mich dafür entschieden einen Bewegungs
       
       <guid>https://snoup97.github.io/swh-pkohler/posts/esp32-labor/</guid>
       <description>ESP32 Labor Im Anschluss an das Arduino Labor wurde mit dem ESP32 das Board durch eines mit deutlich höherer Leistungsfähigkeit und Möglichkeiten ausgetauscht. Mit dem ESP ist es ua. möglich eine Verbindung über Wlan herzustellen sowie selbst einen Webserver zu hosten. Mit dem direkt auf das Board aufgestecken Display wird eine weitere Ausgabe- und Interaktionsmöglichkeit gegeben.
-Schritt 1: Bild auf Display ausgeben Als erster Schritt wurde das aufgesteckte Display verwendet um ein gegebenes Bild auszugeben.</description>
+Schritt 1: Bild auf Display ausgeben Als erster Schritt wurde das aufgesteckte Display verwendet, um ein gegebenes Bild auszugeben.</description>
     </item>
     
     <item>
@@ -80,7 +80,7 @@ Das Netzteil liefert in diesem Versuch die Werte von Strom und Spannung, und dur
       <guid>https://snoup97.github.io/swh-pkohler/posts/setup/</guid>
       <description>Hugo Setup und Deployment auf git Die erste Übung befasste sich mit dem Erstellen und Veröffentlichen einer statischen Website mithilfe von Generatoren wie Hugo sowie Github zur Veröffentlichung.
 Schritt 1: Herunterladen und Installieren Nach dem Herunterladen und Installieren von Hugo konnte ein Projekt erstellt werden und eines der bereitgestellten Themen ausgesucht werden. Das ausgesuchte Thema wurde dann über git in das Projekt eingebunden.
-Schritt 2: Erstellen der eigenen Seite Sobald das Kopieren des Themas abgeschlossen war konnte mit dem Erstellen einer ersten Seite fortgefahren werden.</description>
+Schritt 2: Erstellen der eigenen Seite Sobald das Kopieren des Themas abgeschlossen war, konnte mit dem Erstellen einer ersten Seite fortgefahren werden.</description>
     </item>
     
   </channel>

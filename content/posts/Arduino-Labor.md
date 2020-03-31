@@ -28,9 +28,7 @@ Luftfeuchtigkeit.
 
 ### Schritt 3: Anbau eines Piepsers
 
-Um einen weiteren Signalgeber zu verbauen und somit noch mehr mit dem Nutzer zu interagieren wurde ein Piepser verbaut der mit einem
-kurzen Ton signalisiert wann eine Messung stattfindet. Der Ton wird angeschaltet kurz bevor die Messung beginnt und deaktiviert sobald
-diese abgeschlossen ist.
+Um einen weiteren Signalgeber zu verbauen und somit noch mehr mit dem Nutzer zu interagieren, wurde ein Piepser verbaut, der mit einem kurzen Ton signalisiert, wann eine Messung stattfindet. Der Ton wird angeschaltet, kurz bevor die Messung beginnt und deaktiviert, sobald diese abgeschlossen ist.
 
 ![UnoTemp3 Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/arduinolabor/versuch3.jpg "Dritter Versuch")
 
@@ -40,7 +38,7 @@ Im finalen Schritt wurde ein Ultraschall-Entfernungsmesser angebaut, welcher die
 ausgeben kann. Die gemessene Entfernung wurde hierbei nur auf einer Konsole am angeschlossenen Laptop ausgegeben.
 
 Mit der entsprechenden Software kann nun der Aufbau soweit erweitert werden, dass der Entfernungsmesser die Distanz zum nächsten
-Objekt vor der Messtation misst und sobald diese eine Grenze unterschreitet kann geschlussfolgert werden, dass sich ein Nutzer
+Objekt vor der Messstation misst und sobald diese eine Grenze unterschreitet, kann geschlussfolgert werden, dass sich ein Nutzer
 vor der Station befindet. Daraufhin wird ein Ton ausgegeben und es findet eine Messung statt, die Werte werden anschließend auf
 dem Display ausgegeben.
 

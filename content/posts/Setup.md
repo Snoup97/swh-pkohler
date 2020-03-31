@@ -18,10 +18,10 @@ Nach dem Herunterladen und Installieren von Hugo konnte ein Projekt erstellt wer
 
 ### Schritt 2: Erstellen der eigenen Seite
 
-Sobald das Kopieren des Themas abgeschlossen war konnte mit dem Erstellen einer ersten Seite fortgefahren werden. Danach sollte das Projekt über git veröffentlicht werden.
+Sobald das Kopieren des Themas abgeschlossen war, konnte mit dem Erstellen einer ersten Seite fortgefahren werden. Danach sollte das Projekt über git veröffentlicht werden.
 
 ![github repo image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/setup/github.png "Github Repository")
 
 ### Schritt 3: Erster Blog Eintrag
 
-Sobald diese Schritte abgeschlossen waren und das Projekt öffentlich verfügbar war konnte ein erster Eintrag in den Blog geschrieben werden.
+Sobald diese Schritte abgeschlossen waren und das Projekt öffentlich verfügbar war, konnte ein erster Eintrag in den Blog geschrieben werden.
