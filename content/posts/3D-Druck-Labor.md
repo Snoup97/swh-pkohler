@@ -47,10 +47,10 @@ vorher zu sehen und eventuelle Fehler zu erkennen. Die Einstellungen des Slicers
 die nötige Zeit. Wichtige Einstellungen wären zB. die Schichthöhe und die Druckgeschwindigkeit. Unten sieht man Screenshots
 aus dem Programm, das erste Bild ist das komplette Modell, beim Zweiten sieht man einen Querschnitt einer der unteren Schichten.
 
-![Slicing Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/3ddrucklabor/slicen.png "Slicing")
+![Slicing Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/3ddrucklabor/slicing.png "Slicing")
 
 
-![Schichten Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/3ddrucklabor/schichten.png "Schichten")
+![Schichten Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/3ddrucklabor/schicht.png "Schichten")
 
 ### Schritt 5: Drucken
 
