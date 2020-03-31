@@ -40,9 +40,17 @@ sehr klein und möglichst dünn halten.
 
 ### Schritt 4: Slicen
 
-Slicen ist toll
+Nachdem das Modell fertig war, ging es darum das Ganze für den 3D Drucker lesbar zu machen und auch sicherzustellen, dass der
+Druck wirklich nur 15 Minuten in Anspruch nimmt. Das werden sogenannte Slicer benutzt, ein Programm was ein Modell nimmt und
+eine für den 3D Drucker lesbare .gcode Datei auswirft. Es gibt einem zudem die Möglichkeit jede einzelne Schicht des Drucks
+vorher zu sehen und eventuelle Fehler zu erkennen. Die Einstellungen des Slicers beeinträchtigen dann die Druckqualität und
+die nötige Zeit. Wichtige Einstellungen wären zB. die Schichthöhe und die Druckgeschwindigkeit. Unten sieht man Screenshots
+aus dem Programm, das erste Bild ist das komplette Modell, beim Zweiten sieht man einen Querschnitt einer der unteren Schichten.
 
-Screenshot
+![Slicing Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/3ddrucklabor/slicen.png "Slicing")
+
+
+![Schichten Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/3ddrucklabor/schichten.png "Schichten")
 
 ### Schritt 5: Drucken
 
