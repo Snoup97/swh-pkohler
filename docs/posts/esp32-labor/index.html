@@ -21,32 +21,42 @@
 <div class="content-container">
 <main><h1>ESP32</h1>
 
-<h3 id="esp32-labor">ESP32 Labor</h3>
+<h2 id="esp32-labor">ESP32 Labor</h2>
 
 <p>Im Anschluss an das Arduino Labor wurde mit dem ESP32 das Board durch eines mit deutlich höherer Leistungsfähigkeit und
 Möglichkeiten ausgetauscht. Mit dem ESP ist es ua. möglich eine Verbindung über Wlan herzustellen sowie selbst einen Webserver
 zu hosten. Mit dem direkt auf das Board aufgestecken Display wird eine weitere Ausgabe- und Interaktionsmöglichkeit gegeben.</p>
+
+<h3 id="schritt-1-bild-auf-display-ausgeben">Schritt 1: Bild auf Display ausgeben</h3>
 
 <p>Als erster Schritt wurde das aufgesteckte Display verwendet um ein gegebenes Bild auszugeben. Das Bild war hierbei in einem
 Array gespeichert welches die Helligkeit des jeweiligen Pixels enthält.</p>
 
 <p><img src="https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/esplabor/1.jpg" alt="Array zu Bild" title="Darstellung eines Bildes" /></p>
 
+<h3 id="schritt-2-ultraschall-entfernungsmessung">Schritt 2: Ultraschall Entfernungsmessung</h3>
+
 <p>Um das System mit einer weiteren Interaktionsmöglichkeit zu erweitern wurde eine Ultraschall-Entfernungsmessung angeschlossen.
 Diese ermöglicht über ihre Sensoren eine geringe Entfernung zu messen, und an das Board zu übertragen.</p>
 
 <p><img src="https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/esplabor/2.jpg" alt="Anschluss Entfernungsmessung" title="Anschluss einer Entfernungsmessung" /></p>
+
+<h3 id="schritt-3-webserver">Schritt 3: Webserver</h3>
 
 <p>Um die Möglichkeiten des Boards endlich zu nutzen, wird in diesem Schritt ein Webserver mit dem ESP gehostet. Hierzu erstellt der
 ESP ein eigenes Netzwerk mit Passwort, und ermöglicht jedem der sich in diesem Netzwerk anmeldet die Seite in einem Webbrowser zu laden.</p>
 
 <p><img src="https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/esplabor/3.jpg" alt="Webserver" title="Erstellen des Webservers" /></p>
 
+<h3 id="schritt-4-daten-auf-website-ausgeben">Schritt 4: Daten auf Website ausgeben</h3>
+
 <p>Um in einem finalen Schritt die Komponenten zusammenzuführen, wurde die Seite welche vom Server ausgegeben wird mit einer Anzeige
 erweitert welche die gemessene Entfernung darstellt. Um die Daten immer aktuell zu halten, lädt sich die Seite jede Sekunde selbst neu.
 Auch wenn dies in einem wirklichen System nicht vorkommen sollte, erfüllt es in diesem Fall den Zweck der Darstellung einer Zahl.</p>
 
 <p><img src="https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/esplabor/4.jpg" alt="Kombination" title="Kombination der Komponenten" /></p>
+
+<h3 id="fazit">Fazit</h3>
 
 <p>Die Möglichkeiten eines ESP Boards gehen natürlich noch viel weiter als diesen Anwendungsfall. Trotzdem konnte man schön sehen was alles möglich ist und die Komplexität solcher Systeme kann stark ansteigen. Da ESP Boards und Zubehör günstig im Internet zu
 erwerben sind, kann ich jedem Interessierten nur raten es einfach mal auszuprobieren. Dafür muss man ja schließlich nicht studiert haben ;).</p>

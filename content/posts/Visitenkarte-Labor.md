@@ -4,10 +4,12 @@ date: 2020-01-22T17:03:02+01:00
 draft: false
 ---
 
-### Subtraktive Fertigungsverfahren - Labor
+## Subtraktive Fertigungsverfahren - Labor
 
 Im Rahmen des Labor mit dem Thema "Subtraktive Fertigungsverfahren" war es die Aufgabe eine Visitenkarte zu designen und
 aus gegebenem Material zu schneiden. Ziel war es eine einzigartige Visitenkarte mit ausgefallenen Features entstehen zu lassen.
+
+### Schritt 1: Design
 
 Im ersten Schritt habe ich mir in mehreren Schritten kurz Gedanken gemacht wie meine Visitenkarte aussehen soll und welche besonderen
 Features darin enthalten seien sollen. Die Vorgabe war es die Visitenkarte trotz ihrer Einmaligkeit immer noch Hosentaschentauglich zu gestalten. Daher habe ich mich für eine eher klassische Größe entschieden und bin auch formtechnisch nahe beim Original geblieben.
@@ -18,6 +20,8 @@ Um ein einzigartiges Feature zu besitzen, hatte ich erst eine Art Schiebemechani
 
 ![Designidee](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/visitenkartenlabor/1.jpg "Designidee")
 
+### Schritt 2: Einzelteile anfertigen
+
 Um diese Idee zu verwirklichen braucht die Visitenkarte mehrere Schichten. Eine Datenschicht in welcher die beiden Information ausgeschnitten sind. Darauf liegen mehrere Platzhalter-Schichten welche dem Schieber den nötigen Freiraum geben um von oben nach unten fallen zu können. Als Abschluss liegt eine Abdeckung auf welche Lücken für die beiden Information enthält sowie eine große Wartungslücke, sollte der Schieber doch mal hängen bleiben.
 
 Im Anschluss sind Bilder aller Einzelteile zu sehen.
@@ -27,6 +31,8 @@ Im Anschluss sind Bilder aller Einzelteile zu sehen.
 ![Platzhalter](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/visitenkartenlabor/3.jpg "Platzhalter")
 
 ![Abdeckung](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/visitenkartenlabor/4.jpg "Abdeckung")
+
+### Schritt 3: Zusammenbauen
 
 Alle Teile zusammengesetzt mit etwas Klebstoff und fertig ist eine einzigartige Visitenkarte.
 Im Nachhinein hat sich die Idee mit der Wartungslücke als sehr hilfreich herausgestellt.

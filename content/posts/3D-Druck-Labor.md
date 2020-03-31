@@ -29,13 +29,33 @@ von den Schrauben zu beeinträchtigen habe ich die Löcher für die Schrauben ho
 
 ### Schritt 3: Modellieren
 
+Jetzt sollte die Idee in ein 3D Modell umgewandelt werden. Genutzt wurde das Tool der Wahl, bei mir [Tinkercad](https://www.tinkercad.com/ "Tinkercad"), um aus verschiedenen Basisformen das eigene Modell zu erstellen.
+Beim Modellieren werden mehrere verschiedene Grundformen wie zB. Würfel oder Zylinder zusammengesteckt und zu einem Objekt verbunden.
+Es besteht zudem die Möglichkeit Objekte vom eigentlichen Modell auszuschneiden um passende Formen zu erzeugen.
+In meinem Beispiel habe ich mehrere Würfel genutzt um aus meinem Objekt Teile auszuschneiden damit die Arme entstehen welche
+später die Kabel halten sollen. Auch hier spielt die Idee eine Rolle, dass die Druckzeit begrenzt ist, somit musste man alle Teile
+sehr klein und möglichst dünn halten.
+
 ![Modellimage Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/3ddrucklabor/modell.png "Modellieren")
 
 ### Schritt 4: Slicen
 
+Slicen ist toll
+
 Screenshot
 
 ### Schritt 5: Drucken
+
+Der letzte Schritt ist so unspektakulär wie spektakulär zugleich. Eigentlich nur SD Karte in den Drucker, Start drücken und fertig.
+In den dann kommenden 15 Minuten könnte man sein Modell weiterentwickeln, quasi nochmal bei Schritt 3 einsteigen oder wenns ganz
+mies läuft bei Schritt 2, man könnte auch den anderen helfen oder einfach was zu Trinken holen.
+Trotzdem ist es einfach sehr faszinierend dem 3D Drucker zuzusehen wie er Schicht für Schicht das eigene Modell entstehen lässt.
+
+Da ich zu Beginn ein sehr hohes Tempo hatte, um beim Drucker der Erste zu sein, hatte ich bereits erwartet, dass mein Modell einige
+Macken haben würde. Nach einigen Iterationen war dann es dann allerdings so weit. Kein Wackeln mehr, die Kabel hielten solide in
+der Vorrichtung und es machte auch einen einigermaßen stabilen Eindruck.
+
+Unten sind einmal das finale Produkt mit einem Kabel zu sehen, sowie meine vorherigen Versuche.
 
 ![Finales Produkt 1 Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/3ddrucklabor/withcharger.jpg "finales Produkt")
 
