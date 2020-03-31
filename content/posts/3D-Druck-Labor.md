@@ -29,7 +29,7 @@ von den Schrauben zu beeinträchtigen habe ich die Löcher für die Schrauben ho
 
 ### Schritt 3: Modellieren
 
-![Modellimage Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/3drucklabormodell/modell.png "Modellieren")
+![Modellimage Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/3ddrucklabor/modell.png "Modellieren")
 
 ### Schritt 4: Slicen
 
@@ -37,4 +37,6 @@ Screenshot
 
 ### Schritt 5: Drucken
 
-Bild
+![Finales Produkt 1 Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/3ddrucklabor/final1.jpg "finales Produkt")
+
+![Finales Produkt 2 Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/3ddrucklabor/final2.jpg "finales Produkt")

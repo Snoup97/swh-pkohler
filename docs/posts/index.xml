@@ -12,20 +12,17 @@
     
     
     <item>
-      <title>3D Druck Labor</title>
+      <title>3D Druck</title>
       <link>https://snoup97.github.io/swh-pkohler/posts/3d-druck-labor/</link>
       <pubDate>Mon, 03 Feb 2020 12:51:14 +0100</pubDate>
       
       <guid>https://snoup97.github.io/swh-pkohler/posts/3d-druck-labor/</guid>
-      <description>Additive Fertigungsverfahren - Labor Messen
-Design Bild
-Modelieren Screenshot
-Slicen Screenshot
-Drucken Bild</description>
+      <description>Additive Fertigungsverfahren - Labor Das finale Labor fand zum Thema Additive Fertigungsverfahren statt und beinhaltete das Erstellen einer Kabelhalterung für den Schreibtisch. Vorgabe war es eine Halterung zu erstellen, welche sich seitlich an einem Schreibtisch anbringen lässt, damit die eingehängten Kabel nicht vom Tisch auf den Boden fallen sondern in der Halterung auf ihre nächste Nutzung warten.
+Des weiteren galten Vorgaben bezüglich des Drucks. Der Druck durfte maximal 15 Minuten in Anspruch nehmen, und es musste sich um ein von uns selbst designtes Objekt handeln.</description>
     </item>
     
     <item>
-      <title>Visitenkarte Labor</title>
+      <title>Visitenkarte</title>
       <link>https://snoup97.github.io/swh-pkohler/posts/visitenkarte-labor/</link>
       <pubDate>Wed, 22 Jan 2020 17:03:02 +0100</pubDate>
       
@@ -35,7 +32,7 @@ Im ersten Schritt habe ich mir in mehreren Schritten kurz Gedanken gemacht wie m
     </item>
     
     <item>
-      <title>Automaton Labor</title>
+      <title>Automaton</title>
       <link>https://snoup97.github.io/swh-pkohler/posts/automaton-labor/</link>
       <pubDate>Wed, 22 Jan 2020 17:02:50 +0100</pubDate>
       
@@ -45,7 +42,7 @@ Nach einer kurzen Planungsphase habe ich mich dafür entschieden einen Bewegungs
     </item>
     
     <item>
-      <title>ESP32 Labor</title>
+      <title>ESP32</title>
       <link>https://snoup97.github.io/swh-pkohler/posts/esp32-labor/</link>
       <pubDate>Wed, 04 Dec 2019 17:22:14 +0100</pubDate>
       
@@ -55,7 +52,7 @@ Als erster Schritt wurde das aufgesteckte Display verwendet um ein gegebenes Bil
     </item>
     
     <item>
-      <title>Arduino Labor</title>
+      <title>Arduino</title>
       <link>https://snoup97.github.io/swh-pkohler/posts/arduino-labor/</link>
       <pubDate>Wed, 27 Nov 2019 12:19:21 +0100</pubDate>
       
@@ -65,7 +62,7 @@ Im ersten Abschnitt wurde der Aruino mit einem Temperatursensor verbunden und di
     </item>
     
     <item>
-      <title>E-Technik Labor</title>
+      <title>E-Technik</title>
       <link>https://snoup97.github.io/swh-pkohler/posts/e-technik-labor/</link>
       <pubDate>Mon, 11 Nov 2019 11:46:30 +0100</pubDate>
       
