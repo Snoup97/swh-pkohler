@@ -10,4 +10,6 @@ Auf dieser Website dokumentiere ich meinen Fortschritt im Anwendungsfach "Scratc
 
 Das erste Semester besteht hierbei aus verschiedenen Laboren, welche im Kapitel "Labore" einzeln erklärt werden.
 
-Im zweiten Semester geht es um unser eigenes Projekt, die Idee hierfür kommt jeweils von uns selbst und auch die Ausführung liegt bei uns. 
+Im zweiten Semester geht es um unser eigenes Projekt, die Idee hierfür kommt jeweils von uns selbst und auch die Ausführung liegt bei uns.
+
+![Uni Ulm Medieninformatik](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/medieninfo.png "Uni Ulm Medieninformatik") 
