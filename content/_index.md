@@ -1,10 +1,7 @@
 ---
-title: 'Scratching With Hardware - Doku - Philipp Kohler'
-date: 2018-11-28T15:14:39+10:00
+title: "SWH Blog von Philipp Kohler"
+date: 2019-10-23T16:07:10+02:00
+draft: false
 ---
 
-Doku bllalb
-
-asjkdasldjaslkd
-
-jewjhsahdksldjqhw
+## Blog 
