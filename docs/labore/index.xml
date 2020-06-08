@@ -1,33 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SWH Blog von Philipp Kohler on Scratching With Hardware - Doku - Philipp Kohler</title>
-    <link>https://snoup97.github.io/swh-pkohler/</link>
-    <description>Recent content in SWH Blog von Philipp Kohler on Scratching With Hardware - Doku - Philipp Kohler</description>
+    <title>Labore on Scratching With Hardware - Doku - Philipp Kohler</title>
+    <link>https://snoup97.github.io/swh-pkohler/labore/</link>
+    <description>Recent content in Labore on Scratching With Hardware - Doku - Philipp Kohler</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Oct 2019 16:07:10 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2020 08:08:01 +0200</lastBuildDate>
     
-	<atom:link href="https://snoup97.github.io/swh-pkohler/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://snoup97.github.io/swh-pkohler/labore/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Einzelteile</title>
-      <link>https://snoup97.github.io/swh-pkohler/projekt/einzelteile/</link>
-      <pubDate>Mon, 08 Jun 2020 08:10:40 +0200</pubDate>
-      
-      <guid>https://snoup97.github.io/swh-pkohler/projekt/einzelteile/</guid>
-      <description>Auflistung aller Einzelteile </description>
-    </item>
-    
-    <item>
-      <title>Idee</title>
-      <link>https://snoup97.github.io/swh-pkohler/projekt/idee/</link>
-      <pubDate>Mon, 08 Jun 2020 08:10:34 +0200</pubDate>
-      
-      <guid>https://snoup97.github.io/swh-pkohler/projekt/idee/</guid>
-      <description>Meine Projektidee </description>
-    </item>
     
     <item>
       <title>3D Druck</title>

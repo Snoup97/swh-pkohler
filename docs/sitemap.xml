@@ -3,37 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://snoup97.github.io/swh-pkohler/posts/3d-druck-labor/</loc>
+    <loc>https://snoup97.github.io/swh-pkohler/projekt/einzelteile/</loc>
+    <lastmod>2020-06-08T08:10:40+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://snoup97.github.io/swh-pkohler/projekt/idee/</loc>
+    <lastmod>2020-06-08T08:10:34+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://snoup97.github.io/swh-pkohler/projekt/</loc>
+    <lastmod>2020-06-08T08:09:05+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://snoup97.github.io/swh-pkohler/labore/</loc>
+    <lastmod>2020-06-08T08:08:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://snoup97.github.io/swh-pkohler/labore/3d-druck-labor/</loc>
     <lastmod>2020-02-03T12:51:14+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://snoup97.github.io/swh-pkohler/posts/</loc>
-    <lastmod>2020-02-03T12:51:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://snoup97.github.io/swh-pkohler/posts/visitenkarte-labor/</loc>
+    <loc>https://snoup97.github.io/swh-pkohler/labore/visitenkarte-labor/</loc>
     <lastmod>2020-01-22T17:03:02+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://snoup97.github.io/swh-pkohler/posts/automaton-labor/</loc>
+    <loc>https://snoup97.github.io/swh-pkohler/labore/automaton-labor/</loc>
     <lastmod>2020-01-22T17:02:50+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://snoup97.github.io/swh-pkohler/posts/esp32-labor/</loc>
+    <loc>https://snoup97.github.io/swh-pkohler/labore/esp32-labor/</loc>
     <lastmod>2019-12-04T17:22:14+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://snoup97.github.io/swh-pkohler/posts/arduino-labor/</loc>
+    <loc>https://snoup97.github.io/swh-pkohler/labore/arduino-labor/</loc>
     <lastmod>2019-11-27T12:19:21+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://snoup97.github.io/swh-pkohler/posts/e-technik-labor/</loc>
+    <loc>https://snoup97.github.io/swh-pkohler/labore/e-technik-labor/</loc>
     <lastmod>2019-11-11T11:46:30+01:00</lastmod>
   </url>
   
@@ -43,7 +58,7 @@
   </url>
   
   <url>
-    <loc>https://snoup97.github.io/swh-pkohler/posts/setup/</loc>
+    <loc>https://snoup97.github.io/swh-pkohler/labore/setup/</loc>
     <lastmod>2019-10-23T15:24:47+02:00</lastmod>
   </url>
   
