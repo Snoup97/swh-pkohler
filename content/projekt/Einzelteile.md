@@ -5,3 +5,10 @@ draft: false
 ---
 
 ## Auflistung aller Einzelteile
+
+Temperatur
+Luftfeuchte
+Luftdruck
+Feinstaub
+Gas
+Feuer
