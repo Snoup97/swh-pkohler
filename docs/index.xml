@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Anpassungen</title>
+      <link>https://snoup97.github.io/swh-pkohler/projekt/anpassungen/</link>
+      <pubDate>Thu, 26 Nov 2020 08:06:20 +0100</pubDate>
+      
+      <guid>https://snoup97.github.io/swh-pkohler/projekt/anpassungen/</guid>
+      <description>Nicht alles läuft immer wie geplant, und da ist dieses Projekt keine Ausnahme. Aus verschiedenen Gründen musste ich einige Anpassungen am eigentlichen Plan machen.
+Mobile-App Auf Grund des Aufwands eine Mobile App zu programmieren und diese dann über die API an die Station anzubinden, habe ich mich entschieden diesen Bereich etwas abzuändern. Statt einer App fürs Handy, habe ich eine kleine Web-App gebastelt und auf einen Server gelegt. Somit kann die Station, sobald sie eine Internetverbindung hat ihre Daten an den Server schicken.</description>
+    </item>
+    
+    <item>
       <title>Code</title>
       <link>https://snoup97.github.io/swh-pkohler/projekt/code/</link>
       <pubDate>Thu, 26 Nov 2020 07:54:37 +0100</pubDate>
