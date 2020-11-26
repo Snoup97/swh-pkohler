@@ -6,6 +6,7 @@
 # Generated files by hugo
 /public/
 /resources/_gen/
+.DS_STORE
 
 # Executable may be added to repository
 hugo.exe

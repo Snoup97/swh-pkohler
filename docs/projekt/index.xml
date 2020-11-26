@@ -12,15 +12,26 @@
     
     
     <item>
+      <title>3D Druck</title>
+      <link>https://snoup97.github.io/swh-pkohler/projekt/3d-druck/</link>
+      <pubDate>Thu, 26 Nov 2020 06:44:22 +0100</pubDate>
+      
+      <guid>https://snoup97.github.io/swh-pkohler/projekt/3d-druck/</guid>
+      <description>Fertigungsverfahren 3D Druck Um eine passende Hülle für die Station zu bauen habe ich meinen 3D Drucker genutzt.
+Dabei sollte genügend Raum offen bleiben damit die Station durchgehend mit frischer Luft versorgt wird um die Genauigkeit der Messungen nicht zu beeinflussen.
+Die Hülle besteht hierbei aus drei Einzelteilen.
+Die Basis In die Basis wird das Breadboard, auf welchem alle Sensoren stecken eingelegt. Zudem ist die Basis hoch genug um auch den ESP zu beherbergen.</description>
+    </item>
+    
+    <item>
       <title>Einzelteile</title>
       <link>https://snoup97.github.io/swh-pkohler/projekt/einzelteile/</link>
       <pubDate>Mon, 08 Jun 2020 08:10:40 +0200</pubDate>
       
       <guid>https://snoup97.github.io/swh-pkohler/projekt/einzelteile/</guid>
-      <description>diese Liste wird laufend aktualisiert.
-Temperatur + Luftfeuchte - DHT22 Der große Bruder des DHT11 misst zuverlässig Luftfeuchte von 0 bis 100% und Temperatur von -40 bis 80 Grad Celsius.
+      <description>Temperatur + Luftfeuchte - DHT22 Der große Bruder des DHT11 misst zuverlässig Luftfeuchte von 0 bis 100% und Temperatur von -40 bis 80 Grad Celsius.
 Luftdruck - BMP180 Der BMP180 ist ein digitaler Luftdruckmesser, welcher in einem Bereich von 300 bis 1100 hPa messen kann. Im Vergleich das ist im Bereich von 9000 bis 300 Meter.
-Feinstaub - SDS011 Mit dem SDS011 sind wir beim teuersten Bauteil angelangt.</description>
+Feinstaub - SDS011 Mit dem SDS011 sind wir beim teuersten Bauteil angelangt. Der Sensor hat einen eigenen Lüfter eingebaut und misst in einem Bereich von 0,3 und 10μm.</description>
     </item>
     
     <item>

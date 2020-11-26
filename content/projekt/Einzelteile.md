@@ -4,8 +4,6 @@ date: 2020-06-08T08:10:40+02:00
 draft: false
 ---
 
-diese Liste wird laufend aktualisiert.
-
 ### Temperatur + Luftfeuchte - DHT22
 Der große Bruder des DHT11 misst zuverlässig Luftfeuchte von 0 bis 100% und Temperatur von -40 bis 80 Grad Celsius.
 
