@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Code</title>
+      <link>https://snoup97.github.io/swh-pkohler/projekt/code/</link>
+      <pubDate>Thu, 26 Nov 2020 07:54:37 +0100</pubDate>
+      
+      <guid>https://snoup97.github.io/swh-pkohler/projekt/code/</guid>
+      <description>Programmcode // http://arduino.esp8266.com/stable/package_esp8266com_index.json  /*** INCLUDES ***/ #include &amp;lt;DHT.h&amp;gt;#include &amp;lt;Wire.h&amp;gt;#include &amp;lt;Adafruit_BMP085.h&amp;gt;#include &amp;lt;ESP8266WiFi.h&amp;gt;#include &amp;lt;ESP8266HTTPClient.h&amp;gt; /*** DEFINES ***/ #define DHTPIN 14 #define DHTTYPE DHT22 #define MQ5PIN A0  const char* ssid = &amp;#34;INSERT_WLAN_SSID&amp;#34;; const char* password = &amp;#34;INSERT_WLAN_PASSWORD&amp;#34;; const int sensorMin = 0; const int sensorMax = 1024; Adafruit_BMP085 bmp; DHT dht(DHTPIN, DHTTYPE); long lastSensorRead; long lastFireRead; bool fireDetected = false; bool fireReportSend = false; /*** SETUP ***/ void setup() { // set serial for monitoring  Serial.</description>
+    </item>
+    
+    <item>
       <title>3D Druck</title>
       <link>https://snoup97.github.io/swh-pkohler/projekt/3d-druck/</link>
       <pubDate>Thu, 26 Nov 2020 06:44:22 +0100</pubDate>

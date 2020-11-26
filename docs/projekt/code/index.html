@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Code - Scratching With Hardware - Doku - Philipp Kohler</title>
+<meta name="generator" content="Hugo 0.72.0" />
+<link href="https://snoup97.github.io/swh-pkohler/index.xml" rel="alternate" type="application/rss+xml">
+<link rel="canonical" href="https://snoup97.github.io/swh-pkohler/projekt/code/">
+<link rel="stylesheet" href="https://snoup97.github.io/swh-pkohler/css/theme.min.css">
+<script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<link rel="stylesheet" href="https://snoup97.github.io/swh-pkohler/css/chroma.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js"></script>
+<script src="https://snoup97.github.io/swh-pkohler/js/bundle.js"></script></head>
+<body><div class="container"><header>
+<h1>Scratching With Hardware - Doku - Philipp Kohler</h1>
+
+</header>
+
+<div class="content-container">
+<main><h1>Code</h1><h2 id="programmcode">Programmcode</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++"><span style="color:#75715e">// http://arduino.esp8266.com/stable/package_esp8266com_index.json
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">/*** INCLUDES ***/</span>
+<span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;DHT.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;Wire.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;Adafruit_BMP085.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;ESP8266WiFi.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;ESP8266HTTPClient.h&gt;</span><span style="color:#75715e">
+</span><span style="color:#75715e"></span>
+
+<span style="color:#75715e">/*** DEFINES ***/</span>
+<span style="color:#75715e">#define DHTPIN 14
+</span><span style="color:#75715e">#define DHTTYPE DHT22
+</span><span style="color:#75715e">#define MQ5PIN A0
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">const</span> <span style="color:#66d9ef">char</span><span style="color:#f92672">*</span> ssid     <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;INSERT_WLAN_SSID&#34;</span>;
+<span style="color:#66d9ef">const</span> <span style="color:#66d9ef">char</span><span style="color:#f92672">*</span> password <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;INSERT_WLAN_PASSWORD&#34;</span>;
+<span style="color:#66d9ef">const</span> <span style="color:#66d9ef">int</span> sensorMin <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+<span style="color:#66d9ef">const</span> <span style="color:#66d9ef">int</span> sensorMax <span style="color:#f92672">=</span> <span style="color:#ae81ff">1024</span>;
+Adafruit_BMP085 bmp;
+DHT <span style="color:#a6e22e">dht</span>(DHTPIN, DHTTYPE);
+<span style="color:#66d9ef">long</span> lastSensorRead;
+<span style="color:#66d9ef">long</span> lastFireRead;
+<span style="color:#66d9ef">bool</span> fireDetected <span style="color:#f92672">=</span> false;
+<span style="color:#66d9ef">bool</span> fireReportSend <span style="color:#f92672">=</span> false;
+
+
+<span style="color:#75715e">/*** SETUP ***/</span>
+<span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setup</span>() {
+
+    <span style="color:#75715e">// set serial for monitoring
+</span><span style="color:#75715e"></span>    Serial.begin(<span style="color:#ae81ff">9600</span>);
+
+    <span style="color:#75715e">// WIFI Setup
+</span><span style="color:#75715e"></span>    WiFi.begin(ssid, password);
+    Serial.print(<span style="color:#e6db74">&#34;Connecting to &#34;</span>);
+    Serial.print(ssid); Serial.println(<span style="color:#e6db74">&#34; ...&#34;</span>);
+
+    <span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+    <span style="color:#66d9ef">while</span> (WiFi.status() <span style="color:#f92672">!=</span> WL_CONNECTED) {
+        delay(<span style="color:#ae81ff">1000</span>);
+        Serial.print(<span style="color:#f92672">++</span>i); Serial.print(<span style="color:#e6db74">&#39; &#39;</span>);
+    }
+
+    Serial.println(<span style="color:#e6db74">&#39;\n&#39;</span>);
+    Serial.println(<span style="color:#e6db74">&#34;Connection established!&#34;</span>);
+    Serial.print(<span style="color:#e6db74">&#34;IP address:</span><span style="color:#ae81ff">\t</span><span style="color:#e6db74">&#34;</span>);
+    Serial.println(WiFi.localIP());
+
+    <span style="color:#75715e">// MQ5 PIN
+</span><span style="color:#75715e"></span>    pinMode(MQ5PIN, INPUT);
+
+    <span style="color:#75715e">// BMP start
+</span><span style="color:#75715e"></span>    Wire.begin (<span style="color:#ae81ff">13</span>, <span style="color:#ae81ff">12</span>);
+    <span style="color:#66d9ef">if</span>(<span style="color:#f92672">!</span>bmp.begin()) {
+        Serial.println(<span style="color:#e6db74">&#34;BMP Sensor konnte nicht gestartet werden!&#34;</span>);
+        <span style="color:#66d9ef">return</span>;
+    }
+
+    <span style="color:#75715e">// DHT start
+</span><span style="color:#75715e"></span>    dht.begin();
+
+    <span style="color:#75715e">// time init for sensor reads
+</span><span style="color:#75715e"></span>    lastSensorRead <span style="color:#f92672">=</span> millis();
+    lastFireRead <span style="color:#f92672">=</span> millis();
+}
+
+
+<span style="color:#75715e">/*** LOOP ***/</span>
+<span style="color:#66d9ef">void</span> <span style="color:#a6e22e">loop</span>() {
+    <span style="color:#75715e">// Sensor Data every minute
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">if</span> (millis() <span style="color:#f92672">-</span> lastSensorRead <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">60000</span>) {
+        readValuesAndSendToServer();
+    }
+
+    <span style="color:#75715e">// Fire every 5 seconds
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">if</span> (millis() <span style="color:#f92672">-</span> lastFireRead <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">5000</span>) {
+        fireDetection();
+    }
+}
+
+
+<span style="color:#75715e">/*** FIRE DETECTION ***/</span>
+<span style="color:#66d9ef">void</span> <span style="color:#a6e22e">fireDetection</span>() {
+    <span style="color:#66d9ef">int</span> sensorReading <span style="color:#f92672">=</span> analogRead(<span style="color:#ae81ff">4</span>);
+    Serial.println(sensorReading);
+    <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span>(sensorReading <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>)) {
+        Serial.println(<span style="color:#e6db74">&#34;FEUER&#34;</span>);
+        fireDetected <span style="color:#f92672">=</span> true;
+    } <span style="color:#66d9ef">else</span> {
+      fireDetected <span style="color:#f92672">=</span> false;
+      fireReportSend <span style="color:#f92672">=</span> false;
+    }
+
+    <span style="color:#66d9ef">if</span>(fireDetected <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">!</span>fireReportSend) {
+        Serial.println(<span style="color:#e6db74">&#34;Sende Feuermeldung an Server&#34;</span>);
+
+            <span style="color:#75715e">/*** POST TO SERVER ***/</span>
+
+            <span style="color:#75715e">//Check WiFi connection status
+</span><span style="color:#75715e"></span>            <span style="color:#66d9ef">if</span>(WiFi.status()<span style="color:#f92672">==</span> WL_CONNECTED){
+                HTTPClient http;
+
+                <span style="color:#66d9ef">char</span><span style="color:#f92672">*</span> serverName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;API_ROUTE_GOES_HERE&#34;</span>;
+                http.begin(serverName);
+
+                http.addHeader(<span style="color:#e6db74">&#34;Content-Type&#34;</span>, <span style="color:#e6db74">&#34;application/json&#34;</span>);
+                <span style="color:#66d9ef">int</span> httpResponseCode <span style="color:#f92672">=</span> http.POST(POST_CONTENT_GOES_HERE);
+
+                Serial.print(<span style="color:#e6db74">&#34;Serverantwort: &#34;</span>);
+                Serial.println(httpResponseCode);
+
+                http.end();
+            } <span style="color:#66d9ef">else</span> {
+                Serial.println(<span style="color:#e6db74">&#34;Nicht mit dem Internet verbunden&#34;</span>);
+            }
+
+        fireReportSend <span style="color:#f92672">=</span> true;
+    }
+
+    lastFireRead <span style="color:#f92672">=</span> millis();
+}
+
+
+<span style="color:#75715e">/*** SENSORS AND SERVER POST ***/</span>
+<span style="color:#66d9ef">void</span> <span style="color:#a6e22e">readValuesAndSendToServer</span>() {
+
+    <span style="color:#75715e">// get the gas value from the MQ5
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">float</span> gas_value <span style="color:#f92672">=</span> analogRead(MQ5PIN);
+    Serial.print(<span style="color:#e6db74">&#34;Gas: &#34;</span>);
+    Serial.println(gas_value);
+
+    <span style="color:#75715e">/*** DHT  ***/</span>
+    <span style="color:#75715e">// read from the sensors
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">float</span> h <span style="color:#f92672">=</span> dht.readHumidity();
+    <span style="color:#66d9ef">float</span> t <span style="color:#f92672">=</span> dht.readTemperature();
+
+    <span style="color:#75715e">// check if the values are correctly received
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">if</span> (isnan(h) <span style="color:#f92672">||</span> isnan(t)) {
+        Serial.println(<span style="color:#e6db74">&#34;Fehler beim auslesen des Sensors!&#34;</span>);
+        <span style="color:#66d9ef">return</span>;
+    }
+
+
+    <span style="color:#75715e">// BMP
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">float</span> pressure <span style="color:#f92672">=</span> bmp.readPressure();
+    Serial.print(<span style="color:#e6db74">&#34;Luftdruck = &#34;</span>);
+    Serial.print(pressure);
+    Serial.print(<span style="color:#e6db74">&#34; Pa&#34;</span>);
+    Serial.print(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\t</span><span style="color:#e6db74">&#34;</span>);
+
+    Serial.print(<span style="color:#e6db74">&#34;Hoehe = &#34;</span>);
+    Serial.print(bmp.readAltitude());
+    Serial.println(<span style="color:#e6db74">&#34; meters&#34;</span>);
+
+
+    <span style="color:#75715e">// DHT
+</span><span style="color:#75715e"></span>    Serial.print(<span style="color:#e6db74">&#34;Luftfeuchtigkeit: &#34;</span>);
+    Serial.print(h);
+    Serial.print(<span style="color:#e6db74">&#34;%</span><span style="color:#ae81ff">\t</span><span style="color:#e6db74">&#34;</span>);
+    Serial.print(<span style="color:#e6db74">&#34;Temperatur: &#34;</span>);
+    Serial.print(t);
+    Serial.write(<span style="color:#e6db74">&#34;Grad&#34;</span>);
+    Serial.println(<span style="color:#e6db74">&#34;C&#34;</span>);
+
+
+    <span style="color:#75715e">/*** POST TO SERVER ***/</span>
+    <span style="color:#75715e">//Check WiFi connection status
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">if</span>(WiFi.status()<span style="color:#f92672">==</span> WL_CONNECTED){
+        HTTPClient http;
+
+        <span style="color:#66d9ef">char</span><span style="color:#f92672">*</span> serverName <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;API_ROUTE_GOES_HERE&#34;</span>;
+        http.begin(serverName);
+
+        http.addHeader(<span style="color:#e6db74">&#34;Content-Type&#34;</span>, <span style="color:#e6db74">&#34;application/json&#34;</span>);
+        <span style="color:#66d9ef">int</span> httpResponseCode <span style="color:#f92672">=</span> http.POST(POST_CONTENT_GOES_HERE);
+
+        Serial.print(<span style="color:#e6db74">&#34;Serverantwort: &#34;</span>);
+        Serial.println(httpResponseCode);
+
+        http.end();
+    } <span style="color:#66d9ef">else</span> {
+        Serial.println(<span style="color:#e6db74">&#34;Nicht mit dem Internet verbunden&#34;</span>);
+    }
+
+    lastSensorRead <span style="color:#f92672">=</span> millis();
+}
+</code></pre></div><div class="edit-meta">
+Last updated on 26 Nov 2020
+
+
+<br>
+Published on 26 Nov 2020
+<br></div><nav class="pagination"><a class="nav nav-prev" href="/swh-pkohler/projekt/" title="Projekt"><i class="fas fa-arrow-left" aria-hidden="true"></i> Prev - Projekt</a>
+<a class="nav nav-next" href="/swh-pkohler/projekt/3d-druck/" title="3D Druck">Next - 3D Druck <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+</nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
+</footer>
+</main><div class="sidebar">
+<nav>
+<ul>
+<li class=""><a href="https://snoup97.github.io/swh-pkohler/">Home</a></li>
+
+<li class="parent"><a href="/swh-pkohler/projekt/">Projekt</a>
+<ul class="sub-menu">
+<li class="active"><a href="/swh-pkohler/projekt/code/">Code</a></li>
+<li class=""><a href="/swh-pkohler/projekt/3d-druck/">3D Druck</a></li>
+<li class=""><a href="/swh-pkohler/projekt/einzelteile/">Einzelteile</a></li>
+<li class=""><a href="/swh-pkohler/projekt/idee/">Idee</a></li>
+</ul>
+  
+</li>
+
+<li class=""><a href="/swh-pkohler/labore/">Labore</a>
+<ul class="">
+<li class=""><a href="/swh-pkohler/labore/3d-druck-labor/">3D Druck</a></li>
+<li class=""><a href="/swh-pkohler/labore/visitenkarte-labor/">Visitenkarte</a></li>
+<li class=""><a href="/swh-pkohler/labore/automaton-labor/">Automaton</a></li>
+<li class=""><a href="/swh-pkohler/labore/esp32-labor/">ESP32</a></li>
+<li class=""><a href="/swh-pkohler/labore/arduino-labor/">Arduino</a></li>
+<li class=""><a href="/swh-pkohler/labore/e-technik-labor/">E-Technik</a></li>
+<li class=""><a href="/swh-pkohler/labore/setup/">Setup</a></li>
+</ul>
+  
+</li>
+</ul>
+</nav>
+
+
+<div class="sidebar-footer"></div>
+</div>
+</div><a href="#" id="backtothetop-fixed" class="backtothetop"
+ data-backtothetop-duration="600"
+ data-backtothetop-easing="easeOutQuart"
+ data-backtothetop-fixed-fadeIn="1000"
+ data-backtothetop-fixed-fadeOut="1000"
+ data-backtothetop-fixed-bottom="10"
+ data-backtothetop-fixed-right="20">
+<span class="fa-layers fa-fw">
+<i class="fas fa-circle"></i>
+<i class="fas fa-arrow-circle-up"></i>
+</span></a>
+</div>
+</body>
+</html>
