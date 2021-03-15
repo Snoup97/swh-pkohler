@@ -17,7 +17,3 @@ Die Web-App kann auch Daten von mehreren Stationen empfangen und darstellen. Daz
 
 Der Plan sah vor ein 1,3 Zoll großes OLED Display an die Station anzuschließen um deren Daten auch direkt dort anzeigen zu können. Leider war das Display defekt und konnte nur die ersten Pixelreihen korrekt anzeigen der Rest war eine Mischung aus hellen und dunklen Pixeln, welche sich nicht zurücksetzen ließen.
 Leider hatte ich kein Ersatzdisplay, und musste diese Idee deshalb streichen.
-
-### SDS011
-
-Hoffentlich nur ein temporärer Eintrag, aber im Moment bereitet der SDS011 Feinstaubsensor große Probleme, da er sich nicht anschließen lässt. Trotz vieler Tutorials im Netz ist es mir für den Moment nicht möglich die Daten vom Sensor korrekt auszulesen.
