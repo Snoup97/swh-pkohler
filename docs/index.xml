@@ -12,6 +12,35 @@
     
     
     <item>
+      <title>Video</title>
+      <link>https://snoup97.github.io/swh-pkohler/projekt/video/</link>
+      <pubDate>Mon, 15 Mar 2021 16:34:23 +0100</pubDate>
+      
+      <guid>https://snoup97.github.io/swh-pkohler/projekt/video/</guid>
+      <description>Präsentationsvideo Als Abschluss des Projekts gibt es noch ein kleines Video von meinem fertigen Produkt.</description>
+    </item>
+    
+    <item>
+      <title>Nachbau</title>
+      <link>https://snoup97.github.io/swh-pkohler/projekt/nachbau/</link>
+      <pubDate>Mon, 15 Mar 2021 16:15:28 +0100</pubDate>
+      
+      <guid>https://snoup97.github.io/swh-pkohler/projekt/nachbau/</guid>
+      <description>Anleitung zum Nachbauen Unter der Seite &amp;ldquo;Einzelteile&amp;rdquo; findet man alle nötigen Komponenten die man für einen Nachbau benötigt.
+Schritt 1 Alle Dateien die sich auf der Seite &amp;ldquo;3D-Druck&amp;rdquo; befinden, herunterladen und ausdrucken.
+Schritt 2 Die Einzelteile wie folgt an den ESP anschließen.
+DHT: DA -&amp;gt; D5
+GND -&amp;gt; GND
+VCC -&amp;gt; 3V
+BMP: SCL -&amp;gt; D7
+SCA -&amp;gt; D6
+GND -&amp;gt; GND
+Vin -&amp;gt; 3V
+MQ5: A0 -&amp;gt; A0
+GND -&amp;gt; GND</description>
+    </item>
+    
+    <item>
       <title>Anpassungen</title>
       <link>https://snoup97.github.io/swh-pkohler/projekt/anpassungen/</link>
       <pubDate>Thu, 26 Nov 2020 08:06:20 +0100</pubDate>
