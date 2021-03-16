@@ -13,6 +13,8 @@ Die App basiert dabei auf dem Laravel Framework für PHP und läuft auf einem ei
 
 Die App empfängt über ihre API die Daten der Station und speichert sie in einer MySql Datenbank. Damit die Station eindeutig zugeordnet werden kann, ist im Code der Station ein Name hinterlegt, welcher mitgesendet wird. Somit kann die App auch Daten mehrerer Stationen empfangen.
 
+Der Code befindet sich [hier](https://github.com/Snoup97/AirQualityStation "Server-App").
+
 #### Übersicht der Stationen
 
 ![Dashboard Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/webapp/home.png "Dashboard")

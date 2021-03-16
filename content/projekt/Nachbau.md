@@ -69,7 +69,7 @@ Unter der Seite "Code" findet man den Code der auf den ESP gespielt werden muss.
 
 #### Schritt 4
 
-Um die Daten empfangen zu können wird ein Server mit einer laufenden Laravel Applikation benötigt. Der dazugehörige Code befindet sich hier.
+Um die Daten empfangen zu können wird ein Server mit einer laufenden Laravel Applikation benötigt. Der dazugehörige Code befindet sich [hier](https://github.com/Snoup97/AirQualityStation "Server-App").
 
 
 #### Schritt 5
