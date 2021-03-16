@@ -3,10 +3,10 @@
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Idee - Scratching With Hardware - Doku - Philipp Kohler</title>
+<title>Server - Scratching With Hardware - Doku - Philipp Kohler</title>
 <meta name="generator" content="Hugo 0.72.0" />
 <link href="https://snoup97.github.io/swh-pkohler/index.xml" rel="alternate" type="application/rss+xml">
-<link rel="canonical" href="https://snoup97.github.io/swh-pkohler/projekt/idee/">
+<link rel="canonical" href="https://snoup97.github.io/swh-pkohler/projekt/server/">
 <link rel="stylesheet" href="https://snoup97.github.io/swh-pkohler/css/theme.min.css">
 <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 <link rel="stylesheet" href="https://snoup97.github.io/swh-pkohler/css/chroma.min.css">
@@ -19,22 +19,24 @@
 </header>
 
 <div class="content-container">
-<main><h1>Idee</h1><h2 id="die-idee-zur-luftqualitätsmessung">Die Idee zur Luftqualitätsmessung</h2>
-<p>Wie sind Temperatur, Luftfeuchtigkeit und Luftdruck gegenüberzustellen ? Wenn der eine Wert so steht, wie muss dann ein anderer stehen damit alles
-im grünen Bereich ist ? Und wie siehts aus mit Dingen die nicht schon in der Wetter-App stehen ? Ist bei mir in der Wohnung vielleicht mehr Feinstaub
-als draußen ?</p>
-<p>Diese Fragen stellt man sich vermutlich nicht sehr oft, aber wenn dann wird es sehr spaßfrei diese zu beantworten.
-Um dieses Problem zu beheben, habe ich mich entschieden eine Luftqualitätsmessungsstation zu bauen. Angeschlossen an eine kleine App kann jeder Nutzer
-in kurzer Zeit herausfinden wie es um die Luft in seiner Wohnung steht.</p>
-<p>Dafür braucht es neben mehreren Sensoren, die im Dokuteil &ldquo;Einzelteile&rdquo; genauer beschrieben werden, eine robuste Hülle aus dem 3D Drucker, eine Stromversorgung ohne Anschluss an eine Steckdose, also eine Batterie, und natürlich eine kleine App um alle Informationen nutzerfreundlich darzustellen.</p>
+<main><h1>Server</h1><h3 id="die-webapplikation">Die Webapplikation</h3>
+<p>Jedes mal wenn die Station Daten verschickt müssen diese auch irgendwo empfangen und verarbeitet werden. Für diesen Zweck habe ich eine Web-App aufgesetzt, welche sich darum kümmert.</p>
+<p>Die App basiert dabei auf dem Laravel Framework für PHP und läuft auf einem eigenständigen Server.</p>
+<p>Die App empfängt über ihre API die Daten der Station und speichert sie in einer MySql Datenbank. Damit die Station eindeutig zugeordnet werden kann, ist im Code der Station ein Name hinterlegt, welcher mitgesendet wird. Somit kann die App auch Daten mehrerer Stationen empfangen.</p>
+<h4 id="übersicht-der-stationen">Übersicht der Stationen</h4>
+<p>Bild</p>
+<h4 id="liste-aller-messungen">Liste aller Messungen</h4>
+<p>Bild</p>
+<h4 id="ansicht-einer-messstation">Ansicht einer Messstation</h4>
+<p>Bild</p>
 <div class="edit-meta">
-Last updated on 8 Jun 2020
+Last updated on 16 Mar 2021
 
 
 <br>
-Published on 8 Jun 2020
-<br></div><nav class="pagination"><a class="nav nav-prev" href="/swh-pkohler/projekt/einzelteile/" title="Einzelteile"><i class="fas fa-arrow-left" aria-hidden="true"></i> Prev - Einzelteile</a>
-<a class="nav nav-next" href="/swh-pkohler/labore/" title="Labore">Next - Labore <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+Published on 16 Mar 2021
+<br></div><nav class="pagination"><a class="nav nav-prev" href="/swh-pkohler/projekt/" title="Projekt"><i class="fas fa-arrow-left" aria-hidden="true"></i> Prev - Projekt</a>
+<a class="nav nav-next" href="/swh-pkohler/projekt/video/" title="Video &amp; Bilder">Next - Video &amp; Bilder <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
 </nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
 </footer>
 </main><div class="sidebar">
@@ -44,14 +46,14 @@ Published on 8 Jun 2020
 
 <li class="parent"><a href="/swh-pkohler/projekt/">Projekt</a>
 <ul class="sub-menu">
-<li class=""><a href="/swh-pkohler/projekt/server/">Server</a></li>
+<li class="active"><a href="/swh-pkohler/projekt/server/">Server</a></li>
 <li class=""><a href="/swh-pkohler/projekt/video/">Video &amp; Bilder</a></li>
 <li class=""><a href="/swh-pkohler/projekt/nachbau/">Nachbau</a></li>
 <li class=""><a href="/swh-pkohler/projekt/anpassungen/">Anpassungen</a></li>
 <li class=""><a href="/swh-pkohler/projekt/code/">Code</a></li>
 <li class=""><a href="/swh-pkohler/projekt/3d-druck/">3D Druck</a></li>
 <li class=""><a href="/swh-pkohler/projekt/einzelteile/">Einzelteile</a></li>
-<li class="active"><a href="/swh-pkohler/projekt/idee/">Idee</a></li>
+<li class=""><a href="/swh-pkohler/projekt/idee/">Idee</a></li>
 </ul>
   
 </li>

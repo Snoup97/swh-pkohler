@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>Server</title>
+      <link>https://snoup97.github.io/swh-pkohler/projekt/server/</link>
+      <pubDate>Tue, 16 Mar 2021 20:43:30 +0100</pubDate>
+      
+      <guid>https://snoup97.github.io/swh-pkohler/projekt/server/</guid>
+      <description>Die Webapplikation Jedes mal wenn die Station Daten verschickt müssen diese auch irgendwo empfangen und verarbeitet werden. Für diesen Zweck habe ich eine Web-App aufgesetzt, welche sich darum kümmert.
+Die App basiert dabei auf dem Laravel Framework für PHP und läuft auf einem eigenständigen Server.
+Die App empfängt über ihre API die Daten der Station und speichert sie in einer MySql Datenbank. Damit die Station eindeutig zugeordnet werden kann, ist im Code der Station ein Name hinterlegt, welcher mitgesendet wird.</description>
+    </item>
+    
+    <item>
       <title>Video &amp; Bilder</title>
       <link>https://snoup97.github.io/swh-pkohler/projekt/video/</link>
       <pubDate>Mon, 15 Mar 2021 16:34:23 +0100</pubDate>
