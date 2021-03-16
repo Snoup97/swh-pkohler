@@ -64,4 +64,14 @@ GND -> GND
 
 #### Schritt 3
 
-Unter der Seite "Code" findet man den Code der auf den ESP gespielt werden muss. Vorher sollten alle notwendigen Bibliotheken installiert werden. Im Anschluss muss ein Server bereitgestellt werden, der die Daten empfangen kann. Die URL des Servers dann im Code hinterlegen.
+Unter der Seite "Code" findet man den Code der auf den ESP gespielt werden muss. Vorher sollten alle notwendigen Bibliotheken installiert werden.
+
+
+#### Schritt 4
+
+Um die Daten empfangen zu können wird ein Server mit einer laufenden Laravel Applikation benötigt. Der dazugehörige Code befindet sich hier.
+
+
+#### Schritt 5
+
+Alle Sensoren sind an den ESP angeschlossen der Code läuft sowohl auf dem Server als auch auf dem ESP. Jetzt den ESP nur noch mit Strom versorgen und wenn alles geklappt hat landen nach einer Minute die ersten Daten auf dem Server. Der Server kann auch Daten von mehreren Stationen empfangen und zuordnen. Dafür wird nach dem Namen der Station einkategorisiert, welchen man im Code des ESP festgelegt hat.

@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Video</title>
+      <title>Video &amp; Bilder</title>
       <link>https://snoup97.github.io/swh-pkohler/projekt/video/</link>
       <pubDate>Mon, 15 Mar 2021 16:34:23 +0100</pubDate>
       
@@ -77,9 +77,9 @@ Die Basis In die Basis wird das Breadboard, auf welchem alle Sensoren stecken ei
       <pubDate>Mon, 08 Jun 2020 08:10:40 +0200</pubDate>
       
       <guid>https://snoup97.github.io/swh-pkohler/projekt/einzelteile/</guid>
-      <description>Temperatur + Luftfeuchte - DHT22 Der große Bruder des DHT11 misst zuverlässig Luftfeuchte von 0 bis 100% und Temperatur von -40 bis 80 Grad Celsius.
-Luftdruck - BMP180 Der BMP180 ist ein digitaler Luftdruckmesser, welcher in einem Bereich von 300 bis 1100 hPa messen kann. Im Vergleich das ist im Bereich von 9000 bis 300 Meter.
-Feinstaub - SDS011 Mit dem SDS011 sind wir beim teuersten Bauteil angelangt. Der Sensor hat einen eigenen Lüfter eingebaut und misst in einem Bereich von 0,3 und 10μm.</description>
+      <description>ESP8266 Das Gehirn der Station ist ein ESP8266, welcher sich wegen seiner WIFI Fähigkeit perfekt für das Projekt eignet.
+Temperatur + Luftfeuchte - DHT22 Der große Bruder des DHT11 misst zuverlässig Luftfeuchte von 0 bis 100% und Temperatur von -40 bis 80 Grad Celsius.
+Luftdruck - BMP180 Der BMP180 ist ein digitaler Luftdruckmesser, welcher in einem Bereich von 300 bis 1100 hPa messen kann. Im Vergleich das ist im Bereich von 9000 bis 300 Meter.</description>
     </item>
     
     <item>

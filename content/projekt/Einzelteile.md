@@ -4,6 +4,12 @@ date: 2020-06-08T08:10:40+02:00
 draft: false
 ---
 
+
+### ESP8266
+
+Das Gehirn der Station ist ein ESP8266, welcher sich wegen seiner WIFI Fähigkeit perfekt für das Projekt eignet.
+
+
 ### Temperatur + Luftfeuchte - DHT22
 Der große Bruder des DHT11 misst zuverlässig Luftfeuchte von 0 bis 100% und Temperatur von -40 bis 80 Grad Celsius.
 
