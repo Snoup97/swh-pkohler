@@ -15,12 +15,12 @@ Die App empfängt über ihre API die Daten der Station und speichert sie in eine
 
 #### Übersicht der Stationen
 
-Bild
+![Dashboard Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/webapp/home.png "Dashboard")
 
 #### Liste aller Messungen
 
-Bild
+![Messungen Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/webapp/messungen.png "Messungen Liste")
 
 #### Ansicht einer Messstation
 
-Bild
+![Station Image](https://raw.githubusercontent.com/Snoup97/swh-pkohler/master/static/img/webapp/station.png "Station Liste")
